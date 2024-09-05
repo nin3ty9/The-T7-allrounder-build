@@ -8,9 +8,20 @@ body
 }
 header
 {
-    background-color: dimgray; height: 5rem;
+    background-color: dimgray; height: 3rem; padding: 1rem;
 }
 .border
+{
+    background-color: dimgray;
+}
+.box
+{
+    width: 7em;
+    vertical-align: left;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+.dimGrayBG
 {
     background-color: dimgray;
 }
@@ -18,7 +29,19 @@ header
 {
     color: whitesmoke;
 }
+.whiteItem2
+{
+    color: whitesmoke; line-height: 2;
+}
 .centerText
 {
     text-align: center;
+}
+.leftText
+{
+    text-align: left;
+}
+.lineHeight3
+{
+    line-height: 3;
 }
