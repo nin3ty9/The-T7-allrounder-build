@@ -12,27 +12,44 @@ img
 }
 header
 {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: dimgray; height: 3rem; padding: 1rem;
+    width: 100%;
+}
+footer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    background-color: dimgray; height: 3rem; padding: 1rem;
+}
+section
+{
+    margin: 1rem;
+}
+.sticky
+{
+    position: fixed
 }
 .content
 {
+    font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     background-color: gray;
     vertical-align: left;
-    padding-left: 5rem;
-    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-top: 6rem;
     padding-bottom: 1rem;
-    margin-top: 1rem;
     margin-left: 12rem;
     margin-right: 12rem;
     line-height: 2;
 }
-.sidebar
+.sidebarLeft
 {
+    font-family: Arial, Helvetica, sans-serif;
     width: 7em;
     float: left;
     font-size: 20px;
-    margin-top: 1rem;
+    margin-top: 6rem;
     padding: 1rem;
 }
 .dimGrayBG
