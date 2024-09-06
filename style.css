@@ -6,20 +6,34 @@ body
 {
     background-color: darkgray;
 }
+img
+{
+    width: 60rem;
+}
 header
 {
     background-color: dimgray; height: 3rem; padding: 1rem;
 }
-.border
+.content
 {
-    background-color: dimgray;
+    overflow: hidden;
+    background-color: gray;
+    vertical-align: left;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    line-height: 2;
 }
-.box
+.sidebar
 {
     width: 7em;
-    vertical-align: left;
-    font-size: 18px;
+    float: left;
+    font-size: 20px;
     margin-top: 1rem;
+    padding: 1rem;
 }
 .dimGrayBG
 {
@@ -40,6 +54,12 @@ header
 .leftText
 {
     text-align: left;
+}
+.bread
+{
+    width: 60rem;
+    color: whitesmoke;
+    font-size: 18px;
 }
 .lineHeight3
 {
